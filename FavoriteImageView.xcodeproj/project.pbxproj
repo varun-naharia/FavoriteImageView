@@ -16,6 +16,7 @@
 		07425E0F1CDD0856007FE14D /* FavoriteImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07425E0E1CDD0856007FE14D /* FavoriteImageViewTests.m */; };
 		07425E1A1CDD0858007FE14D /* FavoriteImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07425E191CDD0858007FE14D /* FavoriteImageViewUITests.m */; };
 		07425E2A1CDD7C88007FE14D /* FavoriteImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07425E291CDD7C88007FE14D /* FavoriteImageView.m */; };
+		07425E2F1CDDB663007FE14D /* HeartFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 07425E2E1CDDB663007FE14D /* HeartFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		07425E1B1CDD0858007FE14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07425E281CDD7C88007FE14D /* FavoriteImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteImageView.h; sourceTree = "<group>"; };
 		07425E291CDD7C88007FE14D /* FavoriteImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteImageView.m; sourceTree = "<group>"; };
+		07425E2D1CDDB663007FE14D /* HeartFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartFrame.h; sourceTree = "<group>"; };
+		07425E2E1CDDB663007FE14D /* HeartFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartFrame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		07425DF31CDD084D007FE14D /* FavoriteImageView */ = {
 			isa = PBXGroup;
 			children = (
+				07425E2C1CDDB5E3007FE14D /* HeartFrame */,
 				07425E271CDD7C1F007FE14D /* FavoriteImageView */,
 				07425DF71CDD084D007FE14D /* AppDelegate.h */,
 				07425DF81CDD084E007FE14D /* AppDelegate.m */,
@@ -151,6 +155,15 @@
 				07425E291CDD7C88007FE14D /* FavoriteImageView.m */,
 			);
 			path = FavoriteImageView;
+			sourceTree = "<group>";
+		};
+		07425E2C1CDDB5E3007FE14D /* HeartFrame */ = {
+			isa = PBXGroup;
+			children = (
+				07425E2D1CDDB663007FE14D /* HeartFrame.h */,
+				07425E2E1CDDB663007FE14D /* HeartFrame.m */,
+			);
+			path = HeartFrame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +298,7 @@
 			files = (
 				07425E2A1CDD7C88007FE14D /* FavoriteImageView.m in Sources */,
 				07425DFC1CDD084E007FE14D /* ViewController.m in Sources */,
+				07425E2F1CDDB663007FE14D /* HeartFrame.m in Sources */,
 				07425DF91CDD084E007FE14D /* AppDelegate.m in Sources */,
 				07425DF61CDD084D007FE14D /* main.m in Sources */,
 			);

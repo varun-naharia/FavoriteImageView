@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FavoriteImageView/ViewController.m"
-            timestampString = "484279726.904289"
+            timestampString = "484292569.372836"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "-touchUpInsideChooseImage:"
             landmarkType = "5">
          </BreakpointContent>

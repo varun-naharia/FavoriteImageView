@@ -18,10 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TG3-vf-YcX" userLabel="ImageContainer">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TG3-vf-YcX" userLabel="ImageContainer">
                                 <rect key="frame" x="170" y="28" width="238" height="238"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HBw-xQ-HTu" customClass="FavoriteImageView">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HBw-xQ-HTu" customClass="HeartFrame">
                                         <rect key="frame" x="-1" y="0.0" width="240" height="238"/>
                                         <animations/>
                                     </imageView>
@@ -36,7 +36,7 @@
                                     <constraint firstAttribute="width" secondItem="TG3-vf-YcX" secondAttribute="height" multiplier="1:1" id="zLc-7a-DrW"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOY-yc-2UG">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOY-yc-2UG">
                                 <rect key="frame" x="170" y="285" width="238" height="30"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.52549019610000003" green="0.67450980390000004" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -52,7 +52,7 @@
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="0.9268386465324383" green="0.81237765659955252" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="TG3-vf-YcX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="119:300" id="3E9-ar-AUW"/>
                             <constraint firstItem="SOY-yc-2UG" firstAttribute="centerX" secondItem="TG3-vf-YcX" secondAttribute="centerX" id="7zr-ew-K3P"/>

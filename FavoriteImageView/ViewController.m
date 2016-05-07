@@ -8,9 +8,10 @@
 
 #import "ViewController.h"
 #import "FavoriteImageView.h"
+#import "HeartFrame.h"
 @interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet FavoriteImageView *imageView;
+@property (weak, nonatomic) IBOutlet HeartFrame *imageView;
 
 @end
 
@@ -20,8 +21,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     imagePicker = [[UIImagePickerController alloc]init];
-    [imageView setPercentSize:20];
-    [imageView setHeartPosition:@"BottomRight"];
 }
 
 - (void)didReceiveMemoryWarning {
