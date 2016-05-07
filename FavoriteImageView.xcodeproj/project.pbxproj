@@ -15,6 +15,7 @@
 		07425E041CDD0850007FE14D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07425E021CDD0850007FE14D /* LaunchScreen.storyboard */; };
 		07425E0F1CDD0856007FE14D /* FavoriteImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07425E0E1CDD0856007FE14D /* FavoriteImageViewTests.m */; };
 		07425E1A1CDD0858007FE14D /* FavoriteImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07425E191CDD0858007FE14D /* FavoriteImageViewUITests.m */; };
+		07425E2A1CDD7C88007FE14D /* FavoriteImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07425E291CDD7C88007FE14D /* FavoriteImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		07425E151CDD0857007FE14D /* FavoriteImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoriteImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07425E191CDD0858007FE14D /* FavoriteImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoriteImageViewUITests.m; sourceTree = "<group>"; };
 		07425E1B1CDD0858007FE14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07425E281CDD7C88007FE14D /* FavoriteImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteImageView.h; sourceTree = "<group>"; };
+		07425E291CDD7C88007FE14D /* FavoriteImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		07425DF31CDD084D007FE14D /* FavoriteImageView */ = {
 			isa = PBXGroup;
 			children = (
+				07425E271CDD7C1F007FE14D /* FavoriteImageView */,
 				07425DF71CDD084D007FE14D /* AppDelegate.h */,
 				07425DF81CDD084E007FE14D /* AppDelegate.m */,
 				07425DFA1CDD084E007FE14D /* ViewController.h */,
@@ -138,6 +142,15 @@
 				07425E1B1CDD0858007FE14D /* Info.plist */,
 			);
 			path = FavoriteImageViewUITests;
+			sourceTree = "<group>";
+		};
+		07425E271CDD7C1F007FE14D /* FavoriteImageView */ = {
+			isa = PBXGroup;
+			children = (
+				07425E281CDD7C88007FE14D /* FavoriteImageView.h */,
+				07425E291CDD7C88007FE14D /* FavoriteImageView.m */,
+			);
+			path = FavoriteImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07425E2A1CDD7C88007FE14D /* FavoriteImageView.m in Sources */,
 				07425DFC1CDD084E007FE14D /* ViewController.m in Sources */,
 				07425DF91CDD084E007FE14D /* AppDelegate.m in Sources */,
 				07425DF61CDD084D007FE14D /* main.m in Sources */,
